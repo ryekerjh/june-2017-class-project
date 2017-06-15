@@ -1,0 +1,163 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto');
+
+/*UNIVERSALS */
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h4 {
+    font-family: 'Lato', serif;
+}
+
+p, a {
+    font-family: 'Roboto', serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.block {
+    display: block;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.base-color {
+    color: #008175;
+}
+
+
+/* HEADER SECTION */
+.nav-container {
+    border-bottom: 3px solid #00aea1; /*teal*/
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.logo {
+    /*display: inline-block;*/
+    color: #008175;
+    padding: 15px;
+    float: left;
+}
+
+.nav-items {
+    margin: 0;
+    text-align: right;
+}
+
+.nav-items .listed-nav_item {
+    display: inline-block;
+}
+
+.nav-items .listed-nav_item a {
+    display: block;
+    padding: 15px;
+    color: #008175; /*Darker teal */
+    font-weight: 300;
+}
+
+/*Hero Section */
+.hero {
+    height: 425px;
+    background-image: url('../img/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 20%;
+}
+
+.hero h1 {
+    margin-top: 0;
+    color: #fff;
+    text-align: center;
+}
+
+/*Sidebar section */
+aside {
+    box-sizing: border-box;
+    height: 300px;
+    width: 30%;
+    /*float: left;*/
+    border: 2px solid #0a00ff;
+}
+
+.blog-links {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+}
+
+.blog-links li {
+    height: 25%;
+    text-align: center;
+}
+
+.blog-links li a {
+    color: #0affff;
+    font-family: Helvetica;
+    font-size: 24px;
+}
+
+.blog-links li:hover {
+    background-color: #00aa00;
+    border: 2px double #0aaaaa;
+}
+
+.blog-links li:hover a {
+    color: #000;
+    font-size: 28px;
+}
+
+.hero iframe {
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+}
+
+main {
+    width: 70%;
+    height: 300px;
+    overflow: auto;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+
+main p {
+    line-height: 40px;
+    letter-spacing: 5px;
+    font-size: 18px;
+}
+
+/*Footer Styles */
+footer {
+    height: 110px;
+    background-color: #333;
+    color: #fff;
+    clear: both;
+    padding-top: 16px;
+}
+
+.social-media a {
+    color: #fff;
+}
+
+.social-media a:hover {
+    color: #aff300;
+}
+
+.social-media i {
+    margin: 0px 12px;
+}

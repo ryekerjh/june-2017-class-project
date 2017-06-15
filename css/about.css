@@ -1,0 +1,52 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+
+#about-feature {
+    height: 300px;
+    width: 80%;
+    float: left;
+    background-image: url('http://www.cosmicbooknews.com/sites/default/files/transformers-bumblebee-director.jpg');
+}
+
+aside {
+    float: right;
+    width: 20%;
+    height: 300px;
+    background-color: #DE8E03;
+    color: #e4e4e4;
+    border: none;
+    padding-top: 3.5em;
+    font-family: 'Satisfy', cursive;
+}
+
+aside h1 {
+    font-family: 'Satisfy', cursive;
+    font-size: 36px;
+}
+
+/*Columns Styles*/
+.column {
+    height: 350px;
+    width: 33%;
+    float: left;
+    text-align: justify;
+    position: relative;
+    padding: 0px 8px;
+}
+
+.column button {
+    border: none;
+    padding: 4%;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-left: 35%;
+}
+
+button:hover {
+    cursor: wait;
+}
+
+#col-1 button {
+    background-color: #e40007;
+    color: #fff;
+}
